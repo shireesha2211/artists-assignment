@@ -1,0 +1,70 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Roboto';
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 33px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #2d2c2c;
+  margin: 32px;
+}
+
+.card {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0px 16px 0px;
+}
+
+.label-element {
+  color: #3e3e3e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  font-family: 'Roboto';
+}
+
+.input-element {
+  width: 47%;
+  border: none;
+  border-bottom: solid 1px #585858;
+  outline: none;
+  height: 30px;
+  font-family: 'roboto';
+  font-size: 14px;
+}
+
+.text-area {
+  height: 70px;
+}
+
+.button-card {
+  text-align: end;
+}
+
+.button {
+  margin: 14px;
+  width: 91px;
+  height: 37px;
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  background-color: #ededed;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #2b9eeb;
+  color: #f8f8f8;
+}
